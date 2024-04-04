@@ -8,8 +8,12 @@ export default function Home({navigation}) {
     id: 1,
     title: "Highway to hell",
     group: "AC/DC",
-    album_image: "https://upload.wikimedia.org/wikipedia/en/a/ac/Acdc_Highway_to_Hell.JPG"
-  }
+    album_image: "https://upload.wikimedia.org/wikipedia/en/a/ac/Acdc_Highway_to_Hell.JPG",
+    album: "Highway to Hell",
+    year: 1970,
+    genre:"Heavy Metal",
+  };
+  
   return (
     <View style={styles.container}>
       <StatusBar barstyle="light-content" backgroundColor="#121212"/>
